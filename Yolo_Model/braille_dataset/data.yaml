@@ -1,0 +1,13 @@
+train: ../braille_dataset/train/images
+val: ../braille_dataset/valid/images
+test: ../braille_dataset/test/images
+
+nc: 1
+names: ['braiile']
+
+roboflow:
+  workspace: rsdmzs
+  project: mzs_test1
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rsdmzs/mzs_test1/dataset/6
